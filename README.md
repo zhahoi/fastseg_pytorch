@@ -113,6 +113,6 @@ img/street.jpg
 3、运行get_miou.py即可获得miou大小。  
 
 ## Reference
-[fastseg](https://github.com/ekzhang/fastseg) 
-[deeplabv3-plus-pytorch](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)
+-[fastseg](https://github.com/ekzhang/fastseg) 
+-[deeplabv3-plus-pytorch](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)
 
