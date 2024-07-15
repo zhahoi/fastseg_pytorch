@@ -1,5 +1,7 @@
 # fastseg_pytorch
 PyTorch implementation of MobileNetV3 for real-time semantic segmentation.
+该仓库用于训练以MobileNetV3为主干，LR-ASPP为分割头的实时分割网络，训练模型的代码复现自[fastseg](https://github.com/ekzhang/fastseg)该仓库，不需要依赖任何的预训练权重，也更方便部署到onnx，并且也很轻松地转换到ncnn，便于部署到端侧。训练代码参考自[deeplabv3-plus-pytorch](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)。
+
 
 ### 所需环境
 torch==1.2.0    
@@ -109,3 +111,8 @@ img/street.jpg
 1、设置get_miou.py里面的num_classes为预测的类的数量加1。  
 2、设置get_miou.py里面的name_classes为需要去区分的类别。  
 3、运行get_miou.py即可获得miou大小。  
+
+## Reference
+[fastseg](https://github.com/ekzhang/fastseg) 
+[deeplabv3-plus-pytorch](https://github.com/bubbliiiing/deeplabv3-plus-pytorch)
+
